@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.konny.alermapp">
+    package="com.konny.alarmapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
@@ -11,14 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AlarmListActivity">
+        <activity android:name="com.konny.alarmapp.AlarmListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".alerm.AlermActivity"></activity>
+        <activity android:name="com.konny.alarmapp.alarm.AlermActivity"></activity>
         <receiver android:name=".AlarmReceiver"
             android:process=":remote" />
     </application>

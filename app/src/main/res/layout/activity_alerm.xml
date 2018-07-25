@@ -8,7 +8,7 @@
     android:layout_marginRight="16dp"
     android:layout_marginBottom="5dp"
     android:orientation="vertical"
-    tools:context=".alerm.AlermActivity">
+    tools:context=".alarm.AlermActivity">
 
     <TextView
         android:id="@+id/tvTime"
