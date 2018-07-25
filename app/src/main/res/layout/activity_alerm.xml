@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutAlarm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical"
+    tools:context=".alerm.AlermActivity">
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.2"
+        android:textSize="60sp"/>
+
+    <WebView
+        android:id="@+id/wvAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"/>
+
+    <Switch
+        android:id="@+id/swAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:layout_gravity="center_horizontal"
+        android:checked="false"
+        android:minWidth="50dp" />
+
+
+</LinearLayout>
